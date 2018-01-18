@@ -7,4 +7,4 @@ services:
         redis_version: '3.2.9'
     hostname: server
     ports:
-      - '7000-7007:7000-7007'
+      - '7000-7004:7000-7004'
