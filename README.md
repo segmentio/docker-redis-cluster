@@ -7,9 +7,9 @@ Docker image with redis built and installed from source.
 
 The main usage for this container is to test redis cluster code. For example in https://github.com/Grokzen/redis-py-cluster repo.
 
-The cluster is 6 redis instances running with 3 master & 3 slaves, one slave for each master. They run on ports 7000 to 7005.
+The cluster is 4 redis instances running with 2 master & 2 slaves, one slave for each master. They run on ports 7000 to 7003.
 
-It also contains 2 standalone instances that is not part of the cluster. They are running on port 7006 & 7007
+It also contains 1 standalone instance running on 7004.
 
 This image requires at least `Docker` version 1.10 but the latest version is recommended.
 
